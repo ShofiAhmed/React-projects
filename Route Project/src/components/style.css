@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(7, 3, 31);
+    overflow: auto;
+}
+
+
+.menu{
+    
+    width: auto;
+    height: fit-content;
+    text-align: center;
+    margin-top: 1%;
+    color: white;
+}
+ .menu h1{
+    
+    float: left;
+    width: 20%;
+    
+}
+.link{
+    
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: #c100e7;
+    text-align: center;
+    color: white;
+}
+
+
+
+.homeleft button{
+  background-color: #c100e7;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 26px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.homepage{
+    position: relative;
+    text-align: center;
+   
+    color: white;
+}
+
+.homeleft{
+  width: 60%;
+  float: left;
+  position: absolute;
+  top: 40%;
+  
+
+}
+
+.homeleft h1{
+    font-size: 60px;
+}
+.homeleft h2{
+    font-size: 40px;
+}
+
+.homeright{
+ width: 40%;
+ 
+ float: right;
+ padding-top: 10%;
+ 
+}
+
+.homeright img{
+    width: 90%;
+    height: 100%;
+}
+
+.social{
+    padding-left: 2%;
+}
+
+
+@media screen and (max-width:992px){
+    .homeleft{
+        width: 100%;
+    }
+    .homeright{
+        width: 100%;
+    }
+}
